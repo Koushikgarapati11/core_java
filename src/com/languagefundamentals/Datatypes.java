@@ -1,7 +1,7 @@
 package com.languagefundamentals;
 
 public class Datatypes {
-
+//  Primitive data types Datatypes
 	byte b;
 	short s;
 	int i;
@@ -44,7 +44,7 @@ public class Datatypes {
 
 		System.out.println("Char value:" + d1.c);// space
 
-		if (d1.bomb) {
+		if (d1.bomb2) {
 			System.out.println("Good morning");// false
 		}
 		System.out.println("Byte value:" + d1.bomb);// false

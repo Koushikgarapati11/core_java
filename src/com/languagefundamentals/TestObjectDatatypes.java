@@ -28,6 +28,17 @@ public class TestObjectDatatypes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		TestObjectDatatypes t1 = new TestObjectDatatypes();
+		System.out.println(t1.s);
+		System.out.println(t1.b);
+		System.out.println(t1.bd);
+		System.out.println(t1.i);
+		System.out.println(t1.f);
+		System.out.println(t1.ch);
+		System.out.println(t1.bomb);
+
+		System.out.println(t1.c);
+		System.out.println(t1.d);
 
 	}
 

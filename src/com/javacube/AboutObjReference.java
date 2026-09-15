@@ -10,10 +10,10 @@ public class AboutObjReference {
 		AboutObjReference A1 = new AboutObjReference();
 		AboutObjReference A2 = new AboutObjReference();
 
-		System.out.println(A1);
+		System.out.println(A1);// op:n   com.javacube.AboutObjReference@2b2fa4f7
 
 		int objvalue = 0X2b2fa4f7;
-		System.out.println(objvalue);
+		System.out.println(objvalue);// hashcode
 		System.out.println(A1.hashCode());
 		System.out.println(A2.hashCode());
 
