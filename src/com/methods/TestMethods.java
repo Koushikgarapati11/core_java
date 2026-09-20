@@ -9,32 +9,36 @@ public class TestMethods {
 
 	}
 
+// Addition
 	static void addition(int a, int b) {
 
 		System.out.println("Addition:" + (a + b));// Addition
 		int result = a + b;
-		TestMethods t = new TestMethods();
-		t.subtraction(result, 20);
+		subtraction(result, 20);
 	}
+	// Subtraction
 
-	void subtraction(int a, int b) {
+	static void subtraction(int a, int b) {
 		System.out.println("Subtraction:" + (a - b));// difference
 		int result = a - b;
 		multiplication(result, 6);
 	}
 
-	void multiplication(int a, int b) {
+// Multiplication
+	static void multiplication(int a, int b) {
 		System.out.println("Multipliaction:" + (a * b));// product
 		int result = a * b;
-		divison(result, 5);
+		division(result, 5);
 	}
 
-	static void divison(int a, int b) {
-		System.out.println("Divison:" + (a / b));// Quotient
+//  Division
+	static void division(int a, int b) {
+		System.out.println("Division:" + (a / b));// Quotient
 		int result = a % b;
 		modulus(result, 7);
 	}
 
+// Modulus
 	static void modulus(int a, int b) {
 		System.out.println("Modulus:" + (a % b));// Remainder
 	}
