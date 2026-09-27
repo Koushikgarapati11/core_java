@@ -24,7 +24,7 @@ class Employee {
 
 public class TestDemoFactoryMethods {
 
-	public static Student getstudentInfo() {
+	public static Student studentInfo() {
 		Student s = new Student();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the student id:");
@@ -50,7 +50,7 @@ public class TestDemoFactoryMethods {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Student sd = getstudentInfo();
+		Student sd = studentInfo();
 
 		System.out.println("Student id :" + sd.id);
 		System.out.println("Student name:" + sd.name);

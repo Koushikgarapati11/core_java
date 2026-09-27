@@ -15,14 +15,11 @@ public class TestConstrutor1 {
 		id = 1000001;
 		Name = "Abishay";
 
-		id = 10505;
-		Name = "Koushik";
-
 		System.out.println("Instance block called");
 	}
 
 	TestConstrutor1(int id, String Name) {
-		System.out.println("2 args construct");
+		
 	}
 
 	void display() {
@@ -34,8 +31,8 @@ public class TestConstrutor1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		TestConstrutor1 t = new TestConstrutor1();
-		TestConstrutor1 t1 = new TestConstrutor1(1, "Karthik");
-		TestConstrutor1 t2 = new TestConstrutor1(2, "Ram ");
+		TestConstrutor1 t1 = new TestConstrutor1(1, "java");
+		TestConstrutor1 t2 = new TestConstrutor1();
 
 		System.out.println("t object********************");
 
