@@ -29,7 +29,7 @@ public class MobileBill {
 		this.quantity = quantity;
 		this.deliveryCharges = deliveryCharges;
 		this.mobilecost = price * quantity;
-		this.finalbill = mobilecost + deliveryCharges;
+		this.finalbill = this.mobilecost + deliveryCharges;
 	}
 
 	MobileBill(String Mobilemodel, double price, int quantity) {
